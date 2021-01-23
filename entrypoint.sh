@@ -21,8 +21,8 @@ SPEC_FILE=${4:-*.spec}
 
 python -m pip install --upgrade pip wheel setuptools
 
-wget https://github.com/forensicmike/iLEAPP-wheels/raw/master/pylzfse-0.2-cp39-cp39-win_amd64.whl
-pip install pylzfse-0.2-cp39-cp39-win_amd64.whl
+wget https://github.com/forensicmike/iLEAPP-wheels/raw/master/pyliblzfse-0.4.1-cp39-cp39-win_amd64.whl
+pip install pyliblzfse-0.4.1-cp39-cp39-win_amd64.whl
 
 #
 # In case the user specified a custom URL for PYPI, then use
